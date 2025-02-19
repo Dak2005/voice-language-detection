@@ -1,4 +1,4 @@
-RENDER_BACKEND_URL = "https://voice-language-detection.onrender.com/"
+RENDER_BACKEND_URL = "https://voice-language-detection.onrender.com"
 
 import streamlit as st
 import requests
