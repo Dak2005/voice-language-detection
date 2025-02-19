@@ -13,3 +13,10 @@ def get_language():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")  # This handles requests to the root URL
+def home():
+    return {"message": "Language Detection API is running!"}
