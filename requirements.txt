@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-SpeechRecognition
-langdetect
-streamlit
-requests
-pydub
